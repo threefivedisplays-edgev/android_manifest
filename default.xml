@@ -651,7 +651,7 @@
   <project name="android_vendor_rockchip_common" path="vendor/rockchip/common" revision="2541ea818e18319c216c2a7262e307fd01ababe3"/>
   <project name="android_vendor_rockchip_hardware" path="vendor/rockchip/hardware" revision="50d9a47d71bfa247500f49d4c98787313a292c47"/>
   <project name="android_vendor_widevine" path="vendor/widevine" revision="5777b8f13a37d8dab24d12ad7c959520bb589de8"/>
-  <project name="linux" path="kernel" remote="tfc-github" revision="1bd6972cd0093725c0b1dc87f6546648bbb22452"/>
+  <project name="linux" path="kernel" remote="tfc-github" revision="TFC_J9500MTWX50TC_01A_PIE"/>
   <project clone-depth="1" groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview" remote="aosp" revision="f1a9488d2ad48060c7c736b7ff48b189da3abf60" upstream="refs/tags/android-9.0.0_r48"/>
   <project groups="pdk-fs" name="platform/external/google-breakpad" path="external/google-breakpad" remote="aosp" revision="45fffffa044d245ca435abbaeaeec479375ed860" upstream="refs/tags/android-9.0.0_r48"/>
   <project clone-depth="1" groups="cts" name="platform/external/skqp" path="external/skqp" remote="aosp" revision="fe17456d5e528078ce69b5f15cf7adf1fab963f9" upstream="refs/tags/android-9.0.0_r48"/>
@@ -701,5 +701,5 @@
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/vndk/v27" path="prebuilts/vndk/v27" remote="aosp" revision="6fb2a2d264e723baa2e7890775739eeefaf4e147" upstream="refs/tags/android-9.0.0_r48"/>
   <project clone-depth="1" groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle" remote="aosp" revision="043279cc0bfd0e50b28e3f647beb53f38a6cf246" upstream="refs/tags/android-9.0.0_r48"/>
   <project name="supersu" path="vendor/rockchip/root" revision="51e9fcb8bea1c72a3d4940bb2f09a3f0956467ce"/>
-  <project name="u-boot" remote="tfc-github" revision="0bfc064760eb20523685a9877aca10f88a1cda17"/>
+  <project name="u-boot" remote="tfc-github" revision="TFC_J9500MTWX50TC_01A_PIE"/>
 </manifest>
