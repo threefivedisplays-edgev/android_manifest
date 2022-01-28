@@ -36,8 +36,16 @@
   <project name="android_developers_demos" path="developers/demos" revision="03814c35b8ee0a1284c667556260124d97466b28"/>
   <project name="android_developers_samples_android" path="developers/samples/android" revision="cb517f82e33fdb96ebd77483af1fee872b7b06aa"/>
   <project name="android_development" path="development" revision="7ff3c332eac7a73b23e7838ab3a3293d94f21769"/>
-  <project name="android_device_rockchip_common" path="device/rockchip/common" remote="tfc-github" revision="khadas-edge-pie"/>
-  <project name="android_device_rockchip_rk3399" path="device/rockchip/rk3399" remote="tfc-github" revision="khadas-edge-pie"/>
+  <project name="android_device_rockchip_common" path="device/rockchip/common" remote="tfc-github" revision="khadas-edge-pie">
+  <copyfile dest=".classpath" src=".classpath"/>
+  <copyfile dest="mkimage.sh" src="mkimage.sh"/>
+  <copyfile dest="pack_image.sh" src="pack_image.sh"/>
+  <copyfile dest="javaenv.sh" src="javaenv.sh"/>
+  </project>
+  <project name="android_device_rockchip_rk3399" path="device/rockchip/rk3399" remote="tfc-github" revision="khadas-edge-pie">
+  <copyfile dest="buildspec.mk" src="buildspec.mk"/>
+  <copyfile dest="build.sh" src="build.sh"/>
+  </project>
   <project name="android_device_sample" path="device/sample" revision="64f95592f3bc922952396445d7dbc7acebdefd96"/>
   <project name="android_external_ImageMagick" path="external/ImageMagick" revision="b4940cde976a994f9909878e6218d6f94901cb4d"/>
   <project name="android_external_Microsoft-GSL" path="external/Microsoft-GSL" revision="2ef7b8a9e35e409b175e190298cde5434155f54a"/>
